@@ -1,0 +1,6 @@
+header.dock {
+    display:flex;
+    position:sticky;
+    background-color:black;
+    padding:10px;
+}

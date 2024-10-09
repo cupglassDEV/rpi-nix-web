@@ -1,0 +1,33 @@
+
+.cgdbutton {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    text-decoration: none;
+    color:white;
+  }
+.cgdbutton.download {
+    background-color: transparent;
+    color:rgb(74, 74, 250);
+    border:1px solid rgb(74, 74, 250);
+}
+.cgdbutton:hover {
+  filter: drop-shadow(0 0 1em #ffb964aa);
+  border-color: #ff9864;
+  color:white;
+}
+.cgdbutton.download:hover {
+    color:rgb(74, 74, 250);
+}

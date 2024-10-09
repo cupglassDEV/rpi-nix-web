@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { PropsWithChildren } from 'react';
 import './Header.css'
-const Header: React.FC = () => {
+const Header: React.FC<PropsWithChildren> = ({children}) => {
   return (
-    <header className=''>
-      <h1>My Awesome Website</h1>
+    <header className='dock'>
+      {children}
     </header>
   );
 };
