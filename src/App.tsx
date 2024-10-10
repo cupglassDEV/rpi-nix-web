@@ -1,10 +1,9 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import { Construction } from '@mui/icons-material';
+import { Code, Construction } from '@mui/icons-material';
 import './App.css'
 import Head from './components/Head'
-import Md from '@uiw/react-markdown-preview';
 import { Link } from 'react-router-dom'
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,7 +14,8 @@ function App() {
         {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button> */}
-        <b><Construction/> This website is still under construction</b>
+        <b><Construction/> This website is still under construction</b><br/>
+        <b><Code/>As of the time this text was written, you only can build it from yourself. The download repository will be migrated to github:cupglassdev/rpi-nix-dist</b>
         <p>
           RPiNix is a stripped-down version of Nix's KDE Plasma.<br/>
           With some Raspberry Pi Programs that only be compatible on that device itself <span style={{fontSize:13}}>yeh, absolutely</span>
@@ -23,7 +23,7 @@ function App() {
         </div>{/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <p>It does by excluding built-in bloatware packages in <Md source='<a href="https://github.com/cupglassDEV/rpi-nix/blob/master/general.rpi.nix#L86" target="_blank">environment.plasma6.excludePackages</a>'/></p>
+      <p>It does by excluding built-in bloatware packages in <a href="https://github.com/cupglassDEV/rpi-nix/blob/master/general.rpi.nix#L86" target="_blank">environment.plasma6.excludePackages</a></p>
       <p>Then it adds the compability support for Raspberry pi, such as</p>
       <ul>
         <li>Adding Raspberrypi-eeprom library and libraspberrypi for <Link to="https://www.raspberrypi.com/documentation/computers/os.html#vcgencmd" target='_blank'><code>vcgencmd</code></Link></li>
