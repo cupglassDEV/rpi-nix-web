@@ -16,18 +16,29 @@
     will-change: filter;
     transition: filter 300ms;
     text-decoration: none;
-    color:white;
+    color:white; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
   }
 .cgdbutton.download {
     background-color: transparent;
     color:rgb(74, 74, 250);
     border:1px solid rgb(74, 74, 250);
 }
-.cgdbutton:hover {
+.cgdbutton.normal:hover {
   filter: drop-shadow(0 0 1em #ffb964aa);
   border-color: #ff9864;
   color:white;
 }
+.cgdbutton.selected {
+  border-color: #ffffffaa;
+  filter: drop-shadow(0 0 1em #ffffffaa);
+  border-width: 1px;
+  color:white;
+}
 .cgdbutton.download:hover {
+  filter: drop-shadow(0 0 4em #6473ffaa);
+  border-color: #64a5ff;
     color:rgb(74, 74, 250);
 }

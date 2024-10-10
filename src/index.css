@@ -40,8 +40,12 @@ h1 {
   padding: 2rem;
   text-align: center;
 }
+img.baselogo {
+  width:50px;
+  height:50px;
+}
 
-
+/* .ic {   display: flex;   justify-content: left; } */
 
 /* button:focus,
 button:focus-visible {

@@ -1,6 +1,3 @@
-[submodule "src/rpi-nix-logo"]
-	path = src/rpi-nix-logo
-	url = https://github.com/cupglassdev/rpi-nix-logo
 [submodule "public/rpi-nix-logo"]
 	path = public/rpi-nix-logo
 	url = https://github.com/cupglassdev/rpi-nix-logo

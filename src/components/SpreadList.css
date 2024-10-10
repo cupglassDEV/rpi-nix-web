@@ -1,0 +1,47 @@
+.cgdexmenu {
+    display: flex;
+    flex-direction:row;
+}
+.cgdexmenu .content {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    column-gap:10px;
+}
+.cgdexmenu .toggle {
+    display:none;
+}
+.cgdbutton.download {
+    display:flex;
+}
+@media screen and (max-width: 600px) {
+    .cgdexmenu {
+      flex-direction:column;
+      row-gap:10px;
+    }
+    header.dock div.quicklinks {
+        row-gap:10px;
+        flex-direction:column-reverse;
+    }
+    /* workaround */
+    .cgdexmenu .content {
+      row-gap:10px;
+      display:none;
+    }
+    .cgdexmenu .content.show {
+        display:inherit;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cgdexmenu .toggle {
+      display:inherit;
+      align-items: center;
+      justify-content: center;
+    }
+    .cgdexmenu .toggle .cgdbutton svg {
+        padding-left:20px;
+        padding-right:20px;
+    }
+}

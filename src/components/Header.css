@@ -1,6 +1,44 @@
-header.dock {
+header.dock {  display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-around;
+    position: fixed; /* Sticks the header to the screen */
+    top: 0; /* Positions the header at the top */
+    right: 0; /* Positions the header at the left */
+    width: 100%; /* Makes the header span the entire width of the screen */
+    max-width:max-content;
+    margin-right:12px;
+    margin-top:10px;
+    border-radius: 10px;
+}
+@keyframes logospin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+header.dock .baselogo:hover {
+    align-items:center;
+    justify-items:center;
+    animation: logospin 0.5s ease-in-out;
+}
+header.dock div.quicklinks {
     display:flex;
-    position:sticky;
-    background-color:black;
-    padding:10px;
+    margin:auto;
+    align-items:center;
+    flex-direction: row;
+    column-gap:10px;
+}
+header.dock div.quicklinks .download {
+    transition: all 1s ease-out;
+}
+@media screen and (max-width: 600px) {
+    header.dock div.quicklinks {
+        flex-direction: row-reverse;
+    }
+    header.dock div.quicklinks .download span {
+        display:none;
+    }
 }
