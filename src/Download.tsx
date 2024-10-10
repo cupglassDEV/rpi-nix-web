@@ -16,7 +16,7 @@ return (
         <li>As i remember, github dosent really allow these isos to distribute to github. But what if actually Github Action build these things, then just commit them. It wouldnt be illegal, right? Its <i>on their own machine</i>, idc</li>
     </ul>
     <div className="downloads">
-    <Button><CodeOutlined/>Click here to go to the repository</Button>
+    <Button to="https://github.com/cupglassdev/rpi-nix"><CodeOutlined/>Click here to go to the repository</Button>
     </div>
     </>
 )
