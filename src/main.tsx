@@ -13,7 +13,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/download",
-    element: <Download />
+    element: <Download />,
+    errorElement:<ErrorPage/>
   },
 ]);
 
