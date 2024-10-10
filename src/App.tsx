@@ -34,7 +34,7 @@ function App() {
       <p>And, I added so many tools that maybe you liked it 👍</p>
       <ul>
         <li>Don't care about nix flakes' weird option, <Link to="https://github.com/cupglassDEV/rpi-nix/blob/master/idgaf-about-nix-experimental-commands.rpi.nix" target="_blank">I can handle it</Link></li>
-        <li>Some development tools that <Link to="https://github.com/cupglassDEV/rpi-nix/blob/master/flake.nix#L56">I add</Link></li>
+        <li>Some development tools that <Link to="https://github.com/cupglassDEV/rpi-nix/blob/master/flake.nix#L56" target="_blank">I add</Link></li>
       </ul></>
   )
 }
