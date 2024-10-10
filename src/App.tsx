@@ -26,7 +26,7 @@ function App() {
       <p>It does by excluding built-in bloatware packages in <Md source='<a href="https://github.com/cupglassDEV/rpi-nix/blob/master/general.rpi.nix#L86" target="_blank">environment.plasma6.excludePackages</a>'/></p>
       <p>Then it adds the compability support for Raspberry pi, such as</p>
       <ul>
-        <li>Adding Raspberrypi-eeprop library</li>
+        <li>Adding Raspberrypi-eeprom library and libraspberrypi for <Link to="https://www.raspberrypi.com/documentation/computers/os.html#vcgencmd" target='_blank'><code>vcgencmd</code></Link></li>
         <li>Tweaking the <Link to="https://github.com/cupglassDEV/rpi-nix/blob/master/general.rpi.nix#L37" target="_blank"><code>Filesystem</code></Link> so it can be booted from your own sdcard</li>
         <li>Configuring some exclusive Raspberry pi configuration, such as their own device tree, and <Link to="https://github.com/cupglassDEV/rpi-nix/blob/master/general.rpi.nix#L62" target="_blank">more</Link></li>
         <li>Added a <Link to="https://github.com/cupglassDEV/rpi-nix/blob/master/flake.nix#L41" target="_blank">workaround</Link> in Nix's non-existing device tree for Raspberry pi </li>
