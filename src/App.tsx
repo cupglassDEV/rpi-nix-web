@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+import { Construction } from '@mui/icons-material';
 import './App.css'
 import Head from './components/Head'
 import Md from '@uiw/react-markdown-preview';
@@ -14,6 +15,7 @@ function App() {
         {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button> */}
+        <b><Construction/> This website is still under construction</b>
         <p>
           RPiNix is a stripped-down version of Nix's KDE Plasma.<br/>
           With some Raspberry Pi Programs that only be compatible on that device itself <span style={{fontSize:13}}>yeh, absolutely</span>
