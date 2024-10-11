@@ -11,7 +11,7 @@ const head:FC<{}>= ()=><>
     <Button to="https://github.com/cupglassdev/rpi-nix-logo" ext={true}>Artwork</Button>
     <Button to="https://github.com/cupglassdev/rpi-nix" ext={true}>Repo</Button>
     </SpreadList>
-    <Button to="download" sty="download">
+    <Button to="/download" sty="download">
     <Download/>
     <span>Download</span>
     </Button>
